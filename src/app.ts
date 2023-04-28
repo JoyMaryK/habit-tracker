@@ -40,13 +40,14 @@ class Habit{
 
   let startdate = new Date(item.startDate)
   let date2 = new Date ("2023-04-28")
-  let diff = startdate.getTime() - date2.getTime()
-  console.log(diff);
+  let diff = date2.getTime() - startdate.getTime()
+  let diffDays = Math.ceil(diff / (1000 * 3600 * 24));
+  console.log(diffDays);
   
         let htmlItem = `<div class="habit">
         <h3 class="habit-name">${item.habitName}</h3>
-        <p>${item.startDate}</p>
-        <p>${diff}</p>
+        <p>Start Date: ${item.startDate}</p>
+        <p>Days: ${diffDays}</p>
      </div>`
     html+=htmlItem
     });
