@@ -37,7 +37,7 @@ class Habit {
             let html = ``;
             allHabits.forEach((item) => {
                 let startdate = new Date(item.startDate);
-                let date2 = new Date("2023-04-28"); //hardcoded to today until I fix the bugs
+                let date2 = new Date();
                 let diff = date2.getTime() - startdate.getTime();
                 let diffDays = Math.ceil(diff / (1000 * 3600 * 24));
                 // console.log(diffDays);

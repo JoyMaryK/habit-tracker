@@ -4,9 +4,6 @@ class Habit{
      async addHabit(event: Event) {
       event.preventDefault()
      // console.log("I'm in")
-
-      
-   
       const habitInput =  document.querySelector("#habit-name") as HTMLInputElement
       const habitInputValue = habitInput.value
       const habitStartDateInput =  document.querySelector("#start-date") as HTMLInputElement
@@ -39,7 +36,7 @@ class Habit{
 }) => {
 
   let startdate = new Date(item.startDate)
-  let date2 = new Date ("2023-04-28")  //hardcoded to today until I fix the bugs
+  let date2 = new Date ()  
   let diff = date2.getTime() - startdate.getTime()
   let diffDays = Math.ceil(diff / (1000 * 3600 * 24));
  // console.log(diffDays);
