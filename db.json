@@ -1,0 +1,24 @@
+{
+  "habit": [
+    {
+      "habitName": "habit1",
+      "startDate": "2023-04-28",
+      "id": 1
+    },
+    {
+      "habitName": "habit",
+      "startDate": "2023-04-28",
+      "id": 2
+    },
+    {
+      "habitName": "smoking",
+      "startDate": "2023-04-26",
+      "id": 3
+    },
+    {
+      "habitName": "Over-Eating",
+      "startDate": "2023-04-04",
+      "id": 4
+    }
+  ]
+}

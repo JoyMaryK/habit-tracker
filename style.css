@@ -1,0 +1,25 @@
+body{
+    height: 100vh;
+    display: grid;
+  
+}
+.container{
+
+    display: grid;
+    place-items: center;
+}
+.habits{
+    display: flex;
+    flex-wrap: wrap;
+}
+.habit{
+    border: 1px solid purple;
+    padding: 2rem;
+    margin: 1rem;
+}
+#add-habit{
+    background-color: purple;
+    border-style: none;
+    padding: .2rem;
+    color: white;
+}
