@@ -24,6 +24,21 @@
       "habitName": "Binge-Watching",
       "startDate": "2023-04-10",
       "id": 5
+    },
+    {
+      "habitName": "another",
+      "startDate": "2023-04-17",
+      "id": 6
+    },
+    {
+      "habitName": "habit 2",
+      "startDate": "2023-04-24",
+      "id": 7
+    },
+    {
+      "habitName": "smoking",
+      "startDate": "2023-04-26",
+      "id": 8
     }
   ]
 }
