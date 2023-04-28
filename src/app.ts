@@ -3,7 +3,7 @@ class Habit{
 
      async addHabit(event: Event) {
       event.preventDefault()
-      console.log("I'm in")
+     // console.log("I'm in")
 
       
    
@@ -39,10 +39,10 @@ class Habit{
 }) => {
 
   let startdate = new Date(item.startDate)
-  let date2 = new Date ("2023-04-28")
+  let date2 = new Date ("2023-04-28")  //hardcoded to today until I fix the bugs
   let diff = date2.getTime() - startdate.getTime()
   let diffDays = Math.ceil(diff / (1000 * 3600 * 24));
-  console.log(diffDays);
+ // console.log(diffDays);
   
         let htmlItem = `<div class="habit">
         <h3 class="habit-name">${item.habitName}</h3>
